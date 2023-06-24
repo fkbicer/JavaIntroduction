@@ -1,4 +1,4 @@
-package advanceJava;
+package interfaceJava;
 
 import java.util.Scanner;
 
@@ -56,6 +56,7 @@ public class InterfaceFruit {
 		
 	}
 }
+
 
 }
 
@@ -140,6 +141,24 @@ class Banana implements Ifruit {
 	
 }
 
-
-
+	class denemeTahtasi {
+		private int myValue = 0;
+		void  getValue() {
+			
+			System.out.println(myValue);
+	
+		}
+	}
+	
+	class denemelerce{
+		
+		int myValue = 0;
+		denemeTahtasi obj1 = new denemeTahtasi();
+		
+		int getIt() {
+			return myValue;
+		}
+		
+		
+	}
 

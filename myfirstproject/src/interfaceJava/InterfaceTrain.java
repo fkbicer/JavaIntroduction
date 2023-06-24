@@ -1,4 +1,4 @@
-package advanceJava;
+package interfaceJava;
 
 import java.util.Scanner;
 
