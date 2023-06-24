@@ -2,6 +2,7 @@ package advanceJava;
 
 import java.util.Scanner;
 
+
 public class InterfaceForDBAutomation {
 
 	public static void main(String[] args) {
